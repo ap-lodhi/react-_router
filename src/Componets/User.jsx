@@ -14,9 +14,9 @@ const User =()=>{
         
     },[])
     const isAuth =true;
-    if(isAuth){
-       return <Navigate to="/login"/>
-    }
+    // if(isAuth){
+    //    return <Navigate to="/login"/>
+    // }
     return(
         <>
         <h1>user page </h1>
