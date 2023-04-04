@@ -8,10 +8,14 @@ import Login from './Componets/Login';
 import "./nav.css"
 import User from './Componets/User';
 import UsersDetail from './Componets/UsersDetail';
+import { Form } from './Componets/Form';
 
 function App() {
   return (
     <>
+
+<Form/>
+
     <Navbar/>
     <Routes>
       

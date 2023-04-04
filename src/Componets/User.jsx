@@ -23,6 +23,11 @@ const User =()=>{
             {user.map((user)=>(
                 <p key={user.id}>{user.id}  -<Link to={`/user/${user.id}`} > {user.first_name}</Link> </p>
             ))}
+
+            {/* {user.map((el)=>{
+                
+                return <p key={el.id}>{user.id}  -<Link to={`/user/${el.id}`} > {el.first_name}</Link> </p>
+            })} */}
         </>
     )
 }
